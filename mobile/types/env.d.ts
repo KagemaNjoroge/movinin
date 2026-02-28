@@ -16,4 +16,5 @@ declare module '@env' {
     export const MI_STRIPE_COUNTRY_CODE: string
     export const MI_BASE_CURRENCY: string
     export const MI_WEBSITE_NAME: string
+    export const MI_GOOGLE_WEB_CLIENT_ID: string
 }

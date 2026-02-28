@@ -1,5 +1,34 @@
 # Releases
 
+## [Movin' In 6.7](https://github.com/aelassas/movinin/releases/tag/v6.7) – 2026-02-28
+
+* feat(mobile): add Apple, Google, and Facebook authentication
+* fix(docker): remove version from `docker-compose.yml` (#17)
+* fix(security): unauthenticated admin registration
+* fix(security): move route authentication to dedicated middlewares
+* fix(security): verify Google, Facebook, and Apple tokens cryptographically in backend
+* fix(security): unrestricted file uploads and renames
+* fix(security): prevent directory traversal in file delete routes
+* fix(security): prevent directory traversal in file rename routes
+* fix(security): systemic Cross-Agency IDOR and Unauthenticated Admin Registration (#19)
+* fix(security): prevent non admin users from modifying user language (#19)
+* fix(security): restrict fetching users to admin and supplier only (#19)
+* fix(security): restrict update user, update agency and change password pages to authorized users only
+* fix(security): restrict property update and delete operations to authorized users only
+* fix(admin): allow agencies to update their users
+* fix(admin): allow update password of passwordless users
+* fix(admin): update password button triggers submit from agency form
+* fix(admin,frontend): production build issues
+* chore(deps): update dependencies
+
+### Assets
+- [movinin-6.7.apk](https://github.com/aelassas/movinin/releases/download/v6.7/movinin-6.7.apk) (101.22 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v6.7/movinin-db.zip) (4.74 MB)
+
+### Source Code
+- [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v6.7)
+- [Source code (tar)](https://api.github.com/repos/aelassas/movinin/tarball/v6.7)
+
 ## [Movin' In 6.6](https://github.com/aelassas/movinin/releases/tag/v6.6) – 2025-12-21
 
 * fix(docker): remove version from `docker-compose.yml` (#17)

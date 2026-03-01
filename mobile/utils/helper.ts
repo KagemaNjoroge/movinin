@@ -124,7 +124,7 @@ export const registerPushToken = async (userId: string) => {
   try {
     await UserService.deletePushToken(userId)
     const token = await registerForPushNotificationsAsync()
-
+console.log('token', token)
     if (token) {
       const status = await UserService.createPushToken(userId, token)
       if (status !== 200) {

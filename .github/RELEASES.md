@@ -1,5 +1,21 @@
 # Releases
 
+## [Movin' In 6.8](https://github.com/aelassas/movinin/releases/tag/v6.8) – 2026-03-01
+
+* feat(mobile): enable React Native New Architecture
+* fix(security): enforce backend verification of mobile social auth tokens
+* fix(backend): properly detect, create and update TTL indexes
+* fix(mobile): ignore Google sign-in cancellation to prevent false error popup
+* fix(mobile): improve default locale detection
+
+### Assets
+- [movinin-6.8.apk](https://github.com/aelassas/movinin/releases/download/v6.8/movinin-6.8.apk) (101.22 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v6.8/movinin-db.zip) (4.74 MB)
+
+### Source Code
+- [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v6.8)
+- [Source code (tar)](https://api.github.com/repos/aelassas/movinin/tarball/v6.8)
+
 ## [Movin' In 6.7](https://github.com/aelassas/movinin/releases/tag/v6.7) – 2026-02-28
 
 * feat(mobile): add Apple, Google, and Facebook authentication

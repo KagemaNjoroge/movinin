@@ -1,5 +1,22 @@
 # Releases
 
+## [Movin' In 6.9](https://github.com/aelassas/movinin/releases/tag/v6.9) – 2026-03-03
+
+* chore(mobile): upgrade to Expo SDK 55
+* feat(mobile): migrate navigation from react-navigation to expo-router
+* fix(mobile): prevent loading spinner from persisting in property and booking lists
+* fix(mobile): user context not set after email sign up
+* fix(mobile): text not centered in forgot password result screen
+* fix(auth): handle apple login email persistence for web and mobile
+
+### Assets
+- [movinin-6.9.apk](https://github.com/aelassas/movinin/releases/download/v6.9/movinin-6.9.apk) (114.87 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v6.9/movinin-db.zip) (4.74 MB)
+
+### Source Code
+- [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v6.9)
+- [Source code (tar)](https://api.github.com/repos/aelassas/movinin/tarball/v6.9)
+
 ## [Movin' In 6.8](https://github.com/aelassas/movinin/releases/tag/v6.8) – 2026-03-01
 
 * feat(mobile): enable React Native New Architecture

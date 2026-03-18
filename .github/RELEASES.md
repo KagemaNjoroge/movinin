@@ -1,5 +1,21 @@
 # Releases
 
+## [Movin' In 7.0](https://github.com/aelassas/movinin/releases/tag/v7.0) – 2026-03-18
+
+* fix(backend): optimize mailer with transporter pooling
+* fix(backend): enable secure connection for implicit TLS SMTP server
+* fix(frontend): resolve location carrousel responsive layout on mobile
+* chore(admin,frontend): upgrade to Vite 8
+* chore(deps): update dependencies
+
+### Assets
+- [movinin-7.0.apk](https://github.com/aelassas/movinin/releases/download/v7.0/movinin-7.0.apk) (114.89 MB)
+- [movinin-db.zip](https://github.com/aelassas/movinin/releases/download/v7.0/movinin-db.zip) (4.74 MB)
+
+### Source Code
+- [Source code (zip)](https://api.github.com/repos/aelassas/movinin/zipball/v7.0)
+- [Source code (tar)](https://api.github.com/repos/aelassas/movinin/tarball/v7.0)
+
 ## [Movin' In 6.9](https://github.com/aelassas/movinin/releases/tag/v6.9) – 2026-03-03
 
 * chore(mobile): upgrade to Expo SDK 55
